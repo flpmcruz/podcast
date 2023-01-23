@@ -1,0 +1,22 @@
+//Colores;
+$verde: #84D9BC;
+$gris: #313C4E;
+
+//Reescribir colores de
+$primary: $verde;
+$secondary: $gris;
+
+//Tipografia
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 700;
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-size-root: 62.5%; 
+$font-size-base: 2rem; 
+$h1-font-size: 4.5rem;
+$h2-font-size: 3.6rem;
+$h3-font-size: 3rem;
+
+//espaciado
+$spacer: 5rem;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

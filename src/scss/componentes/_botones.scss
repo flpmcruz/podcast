@@ -1,0 +1,28 @@
+//De esta forma importo a BS que esta siendo importado en custom
+@use '../custom' as *;
+
+.btn-header {
+    //BG, Border, Color Texto, HOVER: BG, Border, Texto
+    @include button-variant($primary, transparent, $secondary, darken($primary, 10%), transparent, darken($secondary, 10%) );
+    @include button-size( 1rem, 5rem, 2rem, 0);
+    
+    @include media-breakpoint-up(md){
+        display: inline-block;
+    }
+
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+
+}
+
+.btn-plan {
+    @extend .btn-header;
+    border: 1px solid white;
+
+    @include media-breakpoint-up(md){
+        display: block;
+    }
+}
