@@ -27,12 +27,12 @@ $separacion: 5rem;
     }
 
     &.inicio {
-        @include m.bgIcono('/build/img/icono_inicio.svg');
+        @include m.bgIcono('../img/icono_inicio.svg');
     }
 
     //el & las ubica en el mismo nivel
     &.negocio {
-        @include m.bgIcono('/build/img/icono_negocio.svg');
+        @include m.bgIcono('../img/icono_negocio.svg');
         @include media-breakpoint-up(md) {
             margin-top: -#{$separacion};
             margin-bottom: -#{$separacion};
@@ -44,6 +44,6 @@ $separacion: 5rem;
     }
 
     &.pro {
-        @include m.bgIcono('/build/img/icono_pro.svg');
+        @include m.bgIcono('../img/icono_pro.svg');
     }
 }

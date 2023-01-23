@@ -588,7 +588,7 @@ svg {
 }
 
 .site-header {
-  background-image: linear-gradient(rgba(49, 60, 78, 0.7) 0%, rgba(49, 60, 78, 0.7) 100%), url("/build/img/header.jpg");
+  background-image: linear-gradient(rgba(49, 60, 78, 0.7) 0%, rgba(49, 60, 78, 0.7) 100%), url("../img/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -745,13 +745,13 @@ svg {
   text-transform: uppercase;
 }
 .plan.inicio {
-  background-image: url("/build/img/icono_inicio.svg");
+  background-image: url("../img/icono_inicio.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
 }
 .plan.negocio {
-  background-image: url("/build/img/icono_negocio.svg");
+  background-image: url("../img/icono_negocio.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
@@ -767,7 +767,7 @@ svg {
   }
 }
 .plan.pro {
-  background-image: url("/build/img/icono_pro.svg");
+  background-image: url("../img/icono_pro.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
@@ -804,7 +804,7 @@ svg {
   width: 5rem;
   height: 5rem;
   display: block;
-  background-image: url(/build/img/comilla.svg);
+  background-image: url(../img/comilla.svg);
   background-size: 4rem;
   background-repeat: no-repeat;
   background-position: center center;
