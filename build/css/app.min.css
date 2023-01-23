@@ -804,7 +804,7 @@ svg {
   width: 5rem;
   height: 5rem;
   display: block;
-  background-image: url(../../../build/img/comilla.svg);
+  background-image: url(/build/img/comilla.svg);
   background-size: 4rem;
   background-repeat: no-repeat;
   background-position: center center;
