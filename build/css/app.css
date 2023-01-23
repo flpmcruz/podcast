@@ -10987,7 +10987,7 @@ textarea.form-control-lg {
 }
 
 .site-header {
-  background-image: linear-gradient(rgba(49, 60, 78, 0.7) 0%, rgba(49, 60, 78, 0.7) 100%), url("../../../build/img/header.jpg");
+  background-image: linear-gradient(rgba(49, 60, 78, 0.7) 0%, rgba(49, 60, 78, 0.7) 100%), url("/build/img/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -11144,13 +11144,13 @@ textarea.form-control-lg {
   text-transform: uppercase;
 }
 .plan.inicio {
-  background-image: url("../../../build/img/icono_inicio.svg");
+  background-image: url("/build/img/icono_inicio.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
 }
 .plan.negocio {
-  background-image: url("../../../build/img/icono_negocio.svg");
+  background-image: url("/build/img/icono_negocio.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
@@ -11166,7 +11166,7 @@ textarea.form-control-lg {
   }
 }
 .plan.pro {
-  background-image: url("../../../build/img/icono_pro.svg");
+  background-image: url("/build/img/icono_pro.svg");
   background-size: 10rem;
   background-position: 50% 2rem;
   background-repeat: no-repeat;
